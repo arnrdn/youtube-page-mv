@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Video Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,9 +22,11 @@
         </div>
         <div class="search">
             <div class="search-bar">
-                <form action="#">
+                <form class="search-form" action="#">
                     <input type="search" name="search" id="search" placeholder="Search">
-                    <button class="search-btn">Search</button>
+                    <button class="search-btn">
+                        <img class="search-btn-icon" src="https://img.icons8.com/windows/32/ffffff/zoom-in--v1.png"/>
+                    </button>
                 </form>
             </div>
         </div>
@@ -30,7 +35,7 @@
                 <img id="bell" src="https://img.icons8.com/material-sharp/24/ffffff/bell.png"/>
             </div>
             <div class="user-pic">
-                <img id="user" src="user-pic.jpg" alt="">
+                <img class="user" src="user-pic.jpg" alt="">
             </div>
         </div>
     </nav>
@@ -72,13 +77,34 @@
                         <img class="dots" src="https://img.icons8.com/ios-glyphs/60/ffffff/ellipsis.png"/>
                     </div>
                 </div>
-                <br>
             </div>
             <div class="channel-info">
-                <div class="channel"></div>
-                <div class="infobox"></div>
+                <div class="channel">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLRxndLOXzaZ4rXbUbXhhoQKBOFMzDtbzrNLIW9VhQ=s88-c-k-c0x00ffffff-no-rj" alt="" class="author-icon">
+                        <div class="author-stats">
+                            <h3 class="author-name">AOMGOFFICIAL</h3>
+                            <span class="sub-num">213K subscribers</span>
+                        </div>
+                    </div>
+                    <div class="sub-btn">
+                        <button class="sub-btn-red">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <p class="desc">
+                        이하이 (LeeHi) - '구원자 (Savior) (Feat. B.I)' Official MV<br> 
+-<br> 
+
+
+이하이 (LeeHi), 3rd Album [4 ONLY]<br> 
+Streaming Available on :<br> 
+2021. 09. 09. THU 6PM (KST)<br> 
+
+-
+                    </p>
+                </div>
             </div>
-            <section class="comments"></section>
         </div>
         <div class="sidebar">
             <div class="preview">
