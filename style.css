@@ -226,6 +226,14 @@ h2 {
 	font-size: 0.875rem;
 }
 
+.sub-btn-red:hover {
+  background: #7c0303;
+}
+
+.sub-btn-red:disabled {
+  background: #bbbbbb;
+}
+
 .description {
 	color: white;
 	font-size: 0.875rem;

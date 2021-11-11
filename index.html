@@ -1,290 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Video Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="left-nav">
-            <div class="hamburger-nav">
-                <img id="nav-img" src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/>
-            </div>
-            <div class="yt-logo">
-                <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube.png"/>
-            </div>
+  <nav>
+    <div class="left-nav">
+      <div class="hamburger-nav">
+        <img id="nav-img" src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png" />
+      </div>
+      <div class="yt-logo">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube.png" />
+      </div>
+    </div>
+    <div class="search">
+      <div class="search-bar">
+        <form class="search-form" action="#">
+          <input type="search" name="search" id="search" placeholder="Search">
+          <button class="search-btn">
+            <img class="search-btn-icon" src="https://img.icons8.com/windows/32/ffffff/zoom-in--v1.png" />
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="right-nav">
+      <div class="notif">
+        <img id="bell" src="https://img.icons8.com/material-sharp/24/ffffff/bell.png" />
+      </div>
+      <div class="user-pic">
+        <img class="user" src="user-pic.jpg" alt="">
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="video-side">
+      <div class="video">
+        <div class="video-file">
+          <iframe width="1100" height="619" src="https://www.youtube.com/embed/fDB4CkyrR4U" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div class="search">
-            <div class="search-bar">
-                <form class="search-form" action="#">
-                    <input type="search" name="search" id="search" placeholder="Search">
-                    <button class="search-btn">
-                        <img class="search-btn-icon" src="https://img.icons8.com/windows/32/ffffff/zoom-in--v1.png"/>
-                    </button>
-                </form>
-            </div>
+        <div class="video-info">
+          <span class="hashtag"><a href="https://www.youtube.com/hashtag/%EC%9D%B4%ED%95%98%EC%9D%B4">#이하이</a></span>
+          <span class="hashtag"><a href="https://www.youtube.com/hashtag/leehi">#LeeHi</a></span>
+          <span class="hashtag"><a href="https://www.youtube.com/hashtag/%EA%B5%AC%EC%9B%90%EC%9E%90">#구원자</a></span>
+          <h2>이하이 (LeeHi) - '구원자 (Savior) (Feat. B.I)' Official MV (ENG/CHN)</h2>
         </div>
-        <div class="right-nav">
-            <div class="notif">
-                <img id="bell" src="https://img.icons8.com/material-sharp/24/ffffff/bell.png"/>
+        <div class="video-stats">
+          <div class="views-date">
+            <span class="views">1,751,246 views</span> <span class="dot">•</span> <span class="date">Premiered Sep 3,
+              2021</span>
+          </div>
+          <div class="others">
+            <div class="rating">
+              <div class="thumbs-up">
+                <img class="thumbs" src="https://img.icons8.com/material-rounded/48/ffffff/thumb-up.png" />
+                <span class="thumbs-up-num">1</span>
+              </div>
+              <div class="thumbs-down">
+                <img class="thumbs" src="https://img.icons8.com/material-rounded/48/ffffff/thumbs-down.png" />
+                <span class="thumbs-down-num">1</span>
+              </div>
             </div>
-            <div class="user-pic">
-                <img class="user" src="user-pic.jpg" alt="">
+            <div class="share">
+              <img class="share-img" src="https://img.icons8.com/ios-glyphs/60/ffffff/share--v1.png" />
+              <span class="share-txt">SHARE</span>
             </div>
+            <div class="save">
+              <img class="save-img" src="https://img.icons8.com/ios-glyphs/60/ffffff/save--v1.png" />
+              <span class="save-txt">SAVE</span>
+            </div>
+            <img class="dots" src="https://img.icons8.com/ios-glyphs/60/ffffff/ellipsis.png" />
+          </div>
         </div>
-    </nav>
-    <main>
-        <div class="video-side">
-            <div class="video">
-                <div class="video-file">
-                    <iframe width="1100" height="619" src="https://www.youtube.com/embed/fDB4CkyrR4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="video-info">
-                    <span class="hashtag"><a href="https://www.youtube.com/hashtag/%EC%9D%B4%ED%95%98%EC%9D%B4">#이하이</a></span>
-                    <span class="hashtag"><a href="https://www.youtube.com/hashtag/leehi">#LeeHi</a></span>
-                    <span class="hashtag"><a href="https://www.youtube.com/hashtag/%EA%B5%AC%EC%9B%90%EC%9E%90">#구원자</a></span>
-                    <h2>이하이 (LeeHi) - '구원자 (Savior) (Feat. B.I)' Official MV (ENG/CHN)</h2>
-                </div>
-                <div class="video-stats">
-                    <div class="views-date">
-                        <span class="views">1,751,246 views</span> <span class="dot">•</span> <span class="date">Premiered Sep 3, 2021</span>
-                    </div>
-                    <div class="others">
-                        <div class="rating">
-                            <div class="thumbs-up">
-                                <img class="thumbs" src="https://img.icons8.com/material-rounded/48/ffffff/thumb-up.png"/>
-                                <span class="thumbs-up-num">219K</span>
-                            </div>
-                            <div class="thumbs-down">
-                                <img class="thumbs" src="https://img.icons8.com/material-rounded/48/ffffff/thumbs-down.png"/>
-                                <span class="thumbs-down-num">965</span>
-                            </div>
-                        </div>
-                        <div class="share">
-                            <img class="share-img" src="https://img.icons8.com/ios-glyphs/60/ffffff/share--v1.png"/>
-                            <span class="share-txt">SHARE</span>
-                        </div>
-                        <div class="save">
-                            <img class="save-img" src="https://img.icons8.com/ios-glyphs/60/ffffff/save--v1.png"/>
-                            <span class="save-txt">SAVE</span>
-                        </div>
-                        <img class="dots" src="https://img.icons8.com/ios-glyphs/60/ffffff/ellipsis.png"/>
-                    </div>
-                </div>
+      </div>
+      <div class="channel-info">
+        <div class="channel">
+          <div class="author">
+            <img
+              src="https://yt3.ggpht.com/ytc/AKedOLRxndLOXzaZ4rXbUbXhhoQKBOFMzDtbzrNLIW9VhQ=s88-c-k-c0x00ffffff-no-rj"
+              alt="" class="author-icon">
+            <div class="author-stats">
+              <h3 class="author-name">AOMGOFFICIAL</h3>
+              <span class="sub-num">213K subscribers</span>
             </div>
-            <div class="channel-info">
-                <div class="channel">
-                    <div class="author">
-                        <img src="https://yt3.ggpht.com/ytc/AKedOLRxndLOXzaZ4rXbUbXhhoQKBOFMzDtbzrNLIW9VhQ=s88-c-k-c0x00ffffff-no-rj" alt="" class="author-icon">
-                        <div class="author-stats">
-                            <h3 class="author-name">AOMGOFFICIAL</h3>
-                            <span class="sub-num">213K subscribers</span>
-                        </div>
-                    </div>
-                    <div class="sub-btn">
-                        <button class="sub-btn-red">SUBSCRIBE</button>
-                    </div>
-                </div>
-                <div class="description">
-                    <p class="desc">
-                        이하이 (LeeHi) - '구원자 (Savior) (Feat. B.I)' Official MV<br> 
--<br> 
+          </div>
+          <div class="sub-btn">
+            <button class="sub-btn-red">SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="description">
+          <p class="desc">
+            이하이 (LeeHi) - '구원자 (Savior) (Feat. B.I)' Official MV<br>
+            -<br>
 
 
-이하이 (LeeHi), 3rd Album [4 ONLY]<br> 
-Streaming Available on :<br> 
-2021. 09. 09. THU 6PM (KST)<br> 
+            이하이 (LeeHi), 3rd Album [4 ONLY]<br>
+            Streaming Available on :<br>
+            2021. 09. 09. THU 6PM (KST)<br>
 
--
-                    </p>
-                </div>
-            </div>
+            -
+          </p>
         </div>
-        <div class="sidebar">
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/GQqyCeKf8rw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxE6jjfThPnL-LThO4aq7vCDyW_Q" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                    LEE HI - '누구 없소 (NO ONE) (Feat. B.I of iKON)' M/V
-                    </h3>
-                    <span class="preview-channel">
-                    OfficialLEEHI
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/KlEbnOZ9DZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVp_Rp0P_tXXSENimebRbRHW6dAQ" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        DPR IAN - Nerves (OFFICIAL M/V)
-                    </h3>
-                    <span class="preview-channel">
-                    Dream Perfect Regime
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/JeGhUESd_1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6ICBJi--CXiBvLyNfskrIYk_ilA" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        CL +5 STAR+ Official Video
-                    </h3>
-                    <span class="preview-channel">
-                        CL Official Channel
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/n-S9bbeBlIA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOBBn3m8Q-fGGiElcuyLewux3JfA" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        BIBI (비비) - '인생은 나쁜X (Life is a Bi...)' Official M/V
-                    </h3>
-                    <span class="preview-channel">
-                        Feel Ghood Music [필굿뮤직]
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/sz2Dmo1_BjM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKWFCUL5bcpm44UN0jgWuFEFS99Q" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        KEY 키 'Hate that... (Feat. TAEYEON)' MV
-                    </h3>
-                    <span class="preview-channel">
-                    SMTOWN
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/QMwJtMJLXE0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnBC9chZbIFMP7qDG8mMOl9Hue-g" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        CL - SPICY (Official Video)
-                    </h3>
-                    <span class="preview-channel">
-                    CL Official Channel
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/EaswWiwMVs8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlPZ0QEZ660Wy2YKQDPHu15ToVjw" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        Stray Kids "소리꾼" M/V
-                    </h3>
-                    <span class="preview-channel">
-                        JYP Entertainment
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/ib_1ATfr8wM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3Ty0BtOhWzqvszEZTEL97ArxhfA" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        HYUNA(현아) - '잘나가서 그래 (Feat. 정일훈 Of BTOB)' (Roll Deep) M/V
-                    </h3>
-                    <span class="preview-channel">
-                        4Minute 포미닛(Official YouTube Channel)
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/zEVd9pSG85Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATsj4IUPWYUgUvMkwzgr7CDJRslQ" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        2NE1 - FALLING IN LOVE M/V
-                    </h3>
-                    <span class="preview-channel">
-                        2NE1
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/Z5-ASY-JOj0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUDhEgJcrIC75BfZbfYlMN-sZ2Bw" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        DPR LIVE - Yellow Cab (OFFICIAL M/V)
-                    </h3>
-                    <span class="preview-channel">
-                        Dream Perfect Regime
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
-            <div class="preview">
-                <img class="preview-img" src="https://i.ytimg.com/vi/J0rmycJSPAE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhJ3f_0q2bwkJF088LVGxujtvNPA" alt="">
-                <div class="preview-info">
-                    <h3 class="preview-title">
-                        DPR IAN - Scaredy Cat (OFFICIAL M/V)
-                    </h3>
-                    <span class="preview-channel">
-                        Dream Perfect Regime
-                    </span>
-                    <div class="preview-stats">
-                        <span class="preview-views">58M views</span>
-                        <span class="dot">•</span>
-                        <span class="preview-date">2 years ago</span>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/GQqyCeKf8rw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxE6jjfThPnL-LThO4aq7vCDyW_Q"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            LEE HI - '누구 없소 (NO ONE) (Feat. B.I of iKON)' M/V
+          </h3>
+          <span class="preview-channel">
+            OfficialLEEHI
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
         </div>
-    </main>
-    <a id="cr" href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/KlEbnOZ9DZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVp_Rp0P_tXXSENimebRbRHW6dAQ"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            DPR IAN - Nerves (OFFICIAL M/V)
+          </h3>
+          <span class="preview-channel">
+            Dream Perfect Regime
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/JeGhUESd_1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6ICBJi--CXiBvLyNfskrIYk_ilA"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            CL +5 STAR+ Official Video
+          </h3>
+          <span class="preview-channel">
+            CL Official Channel
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/n-S9bbeBlIA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOBBn3m8Q-fGGiElcuyLewux3JfA"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            BIBI (비비) - '인생은 나쁜X (Life is a Bi...)' Official M/V
+          </h3>
+          <span class="preview-channel">
+            Feel Ghood Music [필굿뮤직]
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/sz2Dmo1_BjM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKWFCUL5bcpm44UN0jgWuFEFS99Q"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            KEY 키 'Hate that... (Feat. TAEYEON)' MV
+          </h3>
+          <span class="preview-channel">
+            SMTOWN
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/QMwJtMJLXE0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnBC9chZbIFMP7qDG8mMOl9Hue-g"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            CL - SPICY (Official Video)
+          </h3>
+          <span class="preview-channel">
+            CL Official Channel
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/EaswWiwMVs8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlPZ0QEZ660Wy2YKQDPHu15ToVjw"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            Stray Kids "소리꾼" M/V
+          </h3>
+          <span class="preview-channel">
+            JYP Entertainment
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/ib_1ATfr8wM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3Ty0BtOhWzqvszEZTEL97ArxhfA"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            HYUNA(현아) - '잘나가서 그래 (Feat. 정일훈 Of BTOB)' (Roll Deep) M/V
+          </h3>
+          <span class="preview-channel">
+            4Minute 포미닛(Official YouTube Channel)
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/zEVd9pSG85Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATsj4IUPWYUgUvMkwzgr7CDJRslQ"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            2NE1 - FALLING IN LOVE M/V
+          </h3>
+          <span class="preview-channel">
+            2NE1
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/Z5-ASY-JOj0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUDhEgJcrIC75BfZbfYlMN-sZ2Bw"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            DPR LIVE - Yellow Cab (OFFICIAL M/V)
+          </h3>
+          <span class="preview-channel">
+            Dream Perfect Regime
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <img class="preview-img"
+          src="https://i.ytimg.com/vi/J0rmycJSPAE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhJ3f_0q2bwkJF088LVGxujtvNPA"
+          alt="">
+        <div class="preview-info">
+          <h3 class="preview-title">
+            DPR IAN - Scaredy Cat (OFFICIAL M/V)
+          </h3>
+          <span class="preview-channel">
+            Dream Perfect Regime
+          </span>
+          <div class="preview-stats">
+            <span class="preview-views">58M views</span>
+            <span class="dot">•</span>
+            <span class="preview-date">2 years ago</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <a id="cr" href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a>
+  <script src="script.js"></script>
 </body>
+
 </html>
